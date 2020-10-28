@@ -1,10 +1,10 @@
 import React from "react";
-import { Table, Container, Row, Col, CardDeck, Card } from 'react-bootstrap';
+import { Table, Container, Row, Col } from 'react-bootstrap';
 import MovieService from '../_services/movie-services';
 import { MovieForm } from './movieForm';
 import { MovieDetails } from './MovieDetails';
 import CreateMovieDirectory from './createMovieDirectory';
-import { Eye, ArrowRight, Trash, Pencil } from 'react-bootstrap-icons';
+import { Eye, Trash } from 'react-bootstrap-icons';
 
 class MovieDirectory extends React.Component {
   constructor(props) {

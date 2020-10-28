@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import MovieService from '../_services/movie-services';
 import { CreateMovieDirectoryForm } from './createMovieDirectoryForm';
 import './movieDirectoryForm.css';
@@ -15,7 +15,6 @@ class CreateMovieDirectory extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const { displayForm } = this.state;
     const form = e.currentTarget;
     if (form.checkValidity()) {
       this.props.submitMovie();

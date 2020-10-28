@@ -6,11 +6,6 @@ export default class MovieService {
   }
 
   uploadFile(file) {
-    console.log('value of file:', file);
-
-    const headers = {
-      'Content-Type': 'application/x-www-form-urlencoded'
-    }
     const data = new FormData();
     data.append('file', file);
     const options = {

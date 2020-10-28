@@ -1,4 +1,4 @@
-import { Table, Container, Row, Col, Button, Modal } from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
 export const MovieDetails = (props) => {
   return (
     <Modal
