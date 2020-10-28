@@ -1,0 +1,25 @@
+.local-guides {
+  margin-top: 50px;
+}
+
+.create-guide {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.movie-form {
+  margin: 25px 25px;
+  text-align: center;
+  background-color: #EFEFEF;
+  padding: 15px 15px;
+}
+
+.toggle-button {
+  margin: 25px 25px;
+}
+
+.upload-document {
+  margin: 25px 25px;
+  padding: 15px 15px;
+  background-color: #EFEFEF;
+}
